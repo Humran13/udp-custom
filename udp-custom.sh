@@ -18,12 +18,12 @@ install_udp_custom() {
 
     # Install udp-custom
     echo "Downloading udp-custom"
-    wget "https://github.com/Haris131/UDP-Custom/raw/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
+    wget "https://github.com/Humran13/UDP-Custom/raw/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
     chmod +x /root/udp/udp-custom
 
     # Download default config
     echo "Downloading default config"
-    wget "https://raw.githubusercontent.com/Haris131/UDP-Custom/main/config.json" -O /root/udp/config.json
+    wget "https://raw.githubusercontent.com/Humran13/UDP-Custom/main/config.json" -O /root/udp/config.json
     chmod 644 /root/udp/config.json
 
     # Create the systemd service file
